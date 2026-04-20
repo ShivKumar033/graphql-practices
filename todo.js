@@ -1,0 +1,222 @@
+export const TODOS = [
+  {
+    userId: 1,
+    id: 1,
+    title: "delectus aut autem",
+    completed: false,
+    priority: "high",
+    category: "work",
+    tags: ["urgent", "backend"],
+    createdAt: "2026-04-01",
+    dueDate: "2026-04-22"
+  },
+  {
+    userId: 2,
+    id: 2,
+    title: "quis ut nam facilis et officia qui",
+    completed: false,
+    priority: "medium",
+    category: "personal",
+    tags: ["errands"],
+    createdAt: "2026-04-02",
+    dueDate: "2026-04-25"
+  },
+  {
+    userId: 2,
+    id: 3,
+    title: "fugiat veniam minus",
+    completed: false,
+    priority: "low",
+    category: "learning",
+    tags: ["js", "practice"],
+    createdAt: "2026-04-03",
+    dueDate: "2026-05-01"
+  },
+  {
+    userId: 1,
+    id: 4,
+    title: "et porro tempora",
+    completed: true,
+    priority: "high",
+    category: "work",
+    tags: ["api"],
+    createdAt: "2026-03-28",
+    dueDate: "2026-04-10"
+  },
+  {
+    userId: 6,
+    id: 5,
+    title: "laboriosam mollitia et enim quasi adipisci",
+    completed: false,
+    priority: "medium",
+    category: "health",
+    tags: ["gym"],
+    createdAt: "2026-04-05",
+    dueDate: "2026-04-30"
+  },
+  {
+    userId: 1,
+    id: 6,
+    title: "qui ullam ratione quibusdam voluptatem",
+    completed: false,
+    priority: "high",
+    category: "work",
+    tags: ["frontend"],
+    createdAt: "2026-04-06",
+    dueDate: "2026-04-21"
+  },
+  {
+    userId: 7,
+    id: 7,
+    title: "illo expedita consequatur",
+    completed: false,
+    priority: "low",
+    category: "personal",
+    tags: ["reading"],
+    createdAt: "2026-04-07",
+    dueDate: "2026-05-05"
+  },
+  {
+    userId: 7,
+    id: 8,
+    title: "quo adipisci enim quam",
+    completed: true,
+    priority: "medium",
+    category: "work",
+    tags: ["meeting"],
+    createdAt: "2026-03-20",
+    dueDate: "2026-04-01"
+  },
+  {
+    userId: 1,
+    id: 9,
+    title: "molestiae perspiciatis ipsa",
+    completed: false,
+    priority: "high",
+    category: "learning",
+    tags: ["nodejs"],
+    createdAt: "2026-04-08",
+    dueDate: "2026-04-28"
+  },
+  {
+    userId: 1,
+    id: 10,
+    title: "illo est ratione doloremque",
+    completed: true,
+    priority: "medium",
+    category: "work",
+    tags: ["bugfix"],
+    createdAt: "2026-03-25",
+    dueDate: "2026-04-05"
+  },
+  {
+    userId: 3,
+    id: 11,
+    title: "design login page UI",
+    completed: false,
+    priority: "high",
+    category: "design",
+    tags: ["ui", "figma"],
+    createdAt: "2026-04-10",
+    dueDate: "2026-04-23"
+  },
+  {
+    userId: 4,
+    id: 12,
+    title: "setup database schema",
+    completed: false,
+    priority: "high",
+    category: "backend",
+    tags: ["mongodb"],
+    createdAt: "2026-04-11",
+    dueDate: "2026-04-24"
+  },
+  {
+    userId: 5,
+    id: 13,
+    title: "write unit tests",
+    completed: false,
+    priority: "medium",
+    category: "testing",
+    tags: ["jest"],
+    createdAt: "2026-04-12",
+    dueDate: "2026-04-29"
+  },
+  {
+    userId: 6,
+    id: 14,
+    title: "deploy app to production",
+    completed: false,
+    priority: "high",
+    category: "devops",
+    tags: ["aws"],
+    createdAt: "2026-04-13",
+    dueDate: "2026-04-26"
+  },
+  {
+    userId: 8,
+    id: 15,
+    title: "optimize API performance",
+    completed: false,
+    priority: "high",
+    category: "backend",
+    tags: ["optimization"],
+    createdAt: "2026-04-14",
+    dueDate: "2026-04-27"
+  },
+  {
+    userId: 9,
+    id: 16,
+    title: "prepare project report",
+    completed: false,
+    priority: "medium",
+    category: "documentation",
+    tags: ["report"],
+    createdAt: "2026-04-15",
+    dueDate: "2026-04-30"
+  },
+  {
+    userId: 10,
+    id: 17,
+    title: "learn TypeScript basics",
+    completed: false,
+    priority: "low",
+    category: "learning",
+    tags: ["typescript"],
+    createdAt: "2026-04-16",
+    dueDate: "2026-05-10"
+  },
+  {
+    userId: 3,
+    id: 18,
+    title: "fix login authentication bug",
+    completed: false,
+    priority: "high",
+    category: "bugfix",
+    tags: ["auth"],
+    createdAt: "2026-04-17",
+    dueDate: "2026-04-21"
+  },
+  {
+    userId: 2,
+    id: 19,
+    title: "buy groceries",
+    completed: true,
+    priority: "low",
+    category: "personal",
+    tags: ["shopping"],
+    createdAt: "2026-04-05",
+    dueDate: "2026-04-06"
+  },
+  {
+    userId: 4,
+    id: 20,
+    title: "attend team standup meeting",
+    completed: true,
+    priority: "medium",
+    category: "work",
+    tags: ["meeting"],
+    createdAt: "2026-04-18",
+    dueDate: "2026-04-18"
+  }
+];
